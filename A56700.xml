@@ -1,0 +1,813 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached in the chappel of St. James's before His Highness the Prince of Orange, the 20th of January, 1688 by Symon Patrick ...</title>
+            <author>Patrick, Simon, 1626-1707.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1689</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 52 KB of XML-encoded text transcribed from 20 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A56700</idno>
+            <idno type="STC">Wing P846</idno>
+            <idno type="STC">ESTC R23233</idno>
+            <idno type="EEBO-CITATION">12755843</idno>
+            <idno type="OCLC">ocm 12755843</idno>
+            <idno type="VID">93426</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A56700)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 93426)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 727:4)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached in the chappel of St. James's before His Highness the Prince of Orange, the 20th of January, 1688 by Symon Patrick ...</title>
+                  <author>Patrick, Simon, 1626-1707.</author>
+               </titleStmt>
+               <extent>[2], 5-40 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Richard Chiswell ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1689.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Includes bibliographical references.</note>
+                  <note>Reproduction of original in Duke University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Isaiah XI, 6 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <p>
+               <pb facs="tcp:93426:1" rendition="simple:additions"/> A SERMON PREACHED In the Chappel of St. <hi>James</hi>'s, Before His HIGHNESS
+the <hi>Prince of Orange,</hi> The <hi>20th</hi> of <hi>January,</hi> 1688.</p>
+            <p>By <hi>SYMON PATRICK,</hi> D. D. Dean of <hi>Peterborough.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Richard Chiſwell</hi> at the <hi>Roſe and Crown,</hi> in
+St. <hi>Paul</hi>'s <hi>Church-yard.</hi> MDCLXXXIX.</p>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:93426:2"/>
+            <epigraph>
+               <bibl>
+                  <pb n="5" facs="tcp:93426:2"/> ISAIAH XI. 6.</bibl>
+               <q>The Wolf alſo ſhall dwell with the Lamb, and the Leopard ſhall lie down with the Kid; and
+the Calf, and the young Lion, and the Fatling together; and a little Child ſhall lead them,
+<hi>&amp;c.</hi>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>HIS Chapter contains ſuch an Il<g ref="char:EOLhyphen"/>luſtrious Prophecy of <hi>Chriſt,</hi> and of the
+Splendor and Amplitude of his Kingdom; that the greateſt E<g ref="char:EOLhyphen"/>nemies of our bleſſed Saviour have
+not been able to ſhut their eyes a<g ref="char:EOLhyphen"/>gainſt it. They all confeſs it is their great King, the
+<hi>Son of David,</hi> who, the Prophet ſaith, ſhall <hi>come forth as a rod out of the ſtem
+of Jeſſe,</hi> &amp;c. (V. I.) upon whom <hi>the Spirit of the Lord ſhall reſt,</hi> in the
+greateſt plenty and variety of heavenly Gifts, (as it there follows) to whoſe Standart the
+<hi>Gentiles</hi> ſhall reſort <hi>(v.</hi> 10.) <hi>and his reſt be glorious.</hi>
+            </p>
+            <p>Of this there is no queſtion made; but they take exception to our Lord and Saviour, and will
+not allow him to be the <hi>King</hi> that is here fore<g ref="char:EOLhyphen"/>told: becauſe the whole Prophecy, they
+fancy,
+<pb n="6" facs="tcp:93426:3"/> was not fulfilled in him. For we do not ſee, ſay they, the <hi>Wolf dwelling
+with the Lamb, the Leopard lying down with the Kid, the Lion eating ſtraw like an Ox, and the
+Sucking-child playing upon the hole of the Aſp,</hi> &amp;c. as the Prophet tells us they ſhall
+do in the days of the <hi>Meſſiah:</hi> and therefore he, whom you worſhip, is not that
+<hi>King of Iſrael</hi> unto whom we ought to yield obedience.</p>
+            <p>Unto this Exception I ſhall endeavour, at this time, to give full ſatisfaction, and withal
+to ex<g ref="char:EOLhyphen"/>plain the nature of Chriſt's Kingdom: by ſhew<g ref="char:EOLhyphen"/>ing, <hi>firſt,</hi> the meaning of this
+Prophecy; and <hi>ſecondly,</hi> the truth of it; or that it was exactly fulfilled in our
+Bleſſed Lord and Saviour: who came to work, and did effect this marvellous change in the
+World.</p>
+            <div n="1" type="section">
+               <head>I.</head>
+               <p>And for the underſtanding of the ſenſe of the Prophecy, <hi>two</hi> things are
+neceſſary to be done.</p>
+               <p>
+                  <hi>Firſt,</hi> To ſhew what is meant by the <hi>Wolf,</hi> the <hi>Leopard,</hi> and the
+reſt of the Creatures here men<g ref="char:EOLhyphen"/>tioned.</p>
+               <p>
+                  <hi>Secondly,</hi> What it is for them to <hi>dwell,</hi> and <hi>lie down together.</hi>
+               </p>
+               <p>The ſottiſher ſort of <hi>Jews,</hi> who had rather any thing ſhould be altered, than
+themſelves; <note place="margin">I.</note>
+                  <pb n="7" facs="tcp:93426:3"/> have taken theſe words according to the very groſs letter of them: and
+imagined that all the Ravenous Creatures ſhall change their Natures when Chriſt comes.</p>
+               <p>But the ſober men among them are ſenſible that the Prophet, by a Parable of <hi>Wolves and
+Lambs, Leopards and Kids, Lions and Oxen,</hi> deſcribes, as in a Picture, ſuch men, as, in
+their qualities and di<g ref="char:EOLhyphen"/>ſpoſitions, are like unto theſe Creatures. Which is a ſcheme of
+ſpeech no leſs familiar in the ſacred Books, than in other Authors.</p>
+               <p>
+                  <hi>Jacob,</hi> for inſtance, when he ſolemnly bleſſes his twelve Sons <hi>(Gen.</hi>
+XLIX.) calls <hi>Judah</hi> a <hi>Lion's whelp,</hi> becauſe of the ſtrength and fortitude, the
+courage and valour, which he foreſaw would be in that Tribe. And <hi>Dan</hi> he calls <hi>a
+Serpent and an Adder in the path;</hi> becauſe of their ſubtilty and craft. And, to name no
+more, he ſays, <hi>Iſſachar is a ſtrong Aſs, couching down between two burthens,</hi> v.
+14. becauſe of their patience in labour; and ſuffering the heavieſt loads of oppreſſion
+to lie upon them, rather than ſtir to diſcompoſe their reſt and quiet in that plentiful
+Countrey, which fell to their lot in the diviſion of the Land of <hi>Canaan.</hi>
+               </p>
+               <p>But, though they are content this Prophecy ſhould be a deſcription of Mankind; who, they
+<pb n="8" facs="tcp:93426:4"/> ſee, are repreſented by ſuch Creatures, as are here mentioned: yet their
+pride and vain opinion of themſelves, makes them to miſtake the Perſons. For their conceit
+is, that they themſelves are the <hi>Lambs, the Kids, and Oxen,</hi> and we <hi>Gentiles</hi> the
+<hi>Wolves, Leopards, and Lions:</hi> Which, if it were exactly true, would afford (as you ſhall
+hear anon) a moſt excellent ſenſe of this Prophecy.</p>
+               <p>But it is contrary to their own Scriptures; in which we find the greateſt Perſons among
+them, their <hi>Princes and Judges</hi> (that is, the Men of the great <hi>Sanhedrim,</hi> and they
+that judged in <hi>inferiour Courts)</hi> compared, too often, unto the moſt rapa<g ref="char:EOLhyphen"/>cious
+Creatures. They ought indeed to have been as gentle as <hi>Lambs,</hi> as harmleſs as young
+<hi>Kids,</hi> as innocent as a <hi>ſucking Child:</hi> But the Pro<g ref="char:EOLhyphen"/>phet <hi>Zephany</hi> ſays
+in his days <hi>their Princes were roa<g ref="char:EOLhyphen"/>ring Lions, and their Judges evening Wolves,</hi> (the
+greedieſt of all others) who after they had eaten the Fleſh, preſently <hi>gnawed the
+Bones</hi> alſo, <hi>Zeph.</hi> III. 3. that is, they raked the very pooreſt of the people, who
+were already ſo bare, that they were ſtript to their Skins, nay to the very Bones.</p>
+               <p>And after him <hi>Ezekiel</hi> makes the ſame com<g ref="char:EOLhyphen"/>plaint of their unrelenting Cruelty, c.
+XXII. 27. <hi>Her Princes in the midſt thereof are like Wolves raven<g ref="char:EOLhyphen"/>ing
+<pb n="9" facs="tcp:93426:4"/> the prey, to ſhed blood, and to deſtroy ſouls, and get diſhoneſt
+gain.</hi> And both theſe Prophets, it's pro<g ref="char:EOLhyphen"/>bable, borrowed this reſemblance from the wiſe
+King of <hi>Iſrael,</hi> one of whoſe Aphoriſms is this, XXVIII. <hi>Prov.</hi> 25. <hi>As a
+roaring Lion, and a ranging Bear, ſo is a wicked Ruler over a poor People.</hi>
+               </p>
+               <p>In this condition our Lord Chriſt found the <hi>Jewiſh</hi> Nation at his coming, as he
+plainly enough intimates, when ſending forth his XII Apoſtles to preach unto them, and them
+only, X. <hi>Matth.</hi> 5. he ſaith, v. 16. <hi>Behold, I ſend you forth as Sheep</hi> (or, as
+St. <hi>Luke</hi> hath it, <hi>as Lambs) in the midſt of Wolves.</hi>
+               </p>
+               <p>Under that Character he repreſents thoſe who had obtain'd the greateſt Reputation for
+Sanctity among them; telling the Scribes and Phariſees, XXIII. <hi>Matth.</hi> 25, 33. they were
+<hi>Serpents, a gene<g ref="char:EOLhyphen"/>ration of Vipers,</hi> who made a fair appearance with<g ref="char:EOLhyphen"/>out, <hi>but within
+were full of Extortion and Exceſs,</hi> or, (as St. <hi>Luke</hi> expreſſes it) <hi>of
+Ravening and Wicked<g ref="char:EOLhyphen"/>neſs;</hi> had a Wolfiſh appetite, that is, being ſo ra<g ref="char:EOLhyphen"/>venous, that they
+devoured even <hi>Widows Houſes,</hi> and never thought they had enough.</p>
+               <p>By this it is apparent, that, though the <hi>Gentiles</hi> were generally more Savage than the
+<hi>Jews,</hi> yet they too often imitated their Cruelty; and, not<g ref="char:EOLhyphen"/>withſtanding their wholſom
+Laws, which taught
+<pb n="10" facs="tcp:93426:5"/> them better, were as oppreſſive and hard-heart<g ref="char:EOLhyphen"/>ed as the moſt barbarous
+Nations. And therefore it is moſt reaſonable by <hi>Wolves, Leopards, Lions, Aſps,</hi> and
+ſuch-like Creatures, to underſtand all Men, of what Nation ſoever, who are of a fierce and
+rapacious, a cruel and implacable Nature: and by <hi>Lambs, Kids, Calves,</hi> and others of that
+kind, all thoſe who are of a more mild and gen<g ref="char:EOLhyphen"/>tle, tender and merciful diſpoſition; that
+have no Enmity to others, and do no hurt, but are uſeful to their Neighbours, and inclined to do
+good to all.</p>
+               <p>This being very evident, there is no difficulty in the <hi>Second</hi> thing to be explained;
+but we may eaſily tell what it is for theſe perſons to <hi>dwell,</hi> and <hi>lie down
+together.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="II"/>
+                  <hi>Cohabitation,</hi> and reſting in the ſame place, ſignifies
+friendlineſs, love, and conſtant kindneſs; the effect of which is, mutual help,
+aſſiſtance, and comfort. And ſo the meaning of the Prophet is, that ſuch perſons as
+were ſo full of hatred before our Saviour's coming, that they did not only con<g ref="char:EOLhyphen"/>tend and quarrel,
+but alſo worry and devour one another; ſhould, in the days of Chriſt become new Creatures;
+and, laying aſide their Enmities and Oppoſitions, their Variance and Emulation,
+<pb n="11" facs="tcp:93426:5"/> their Bloody Strife and Contention; live in ſuch Love and Peace together, as
+they are wont to do who <hi>dwell in the ſame Houſe;</hi> that is, as Brethren and Siſters;
+or who <hi>lie in the ſame Bed,</hi> that is, as Husband and Wife, between whom there is the
+ſtrongeſt and deareſt league of Friendſhip.</p>
+               <p>This, I doubt not, is the general ſenſe of the words: If there be any particular rank of
+per<g ref="char:EOLhyphen"/>ſons deſigned by theſe ſeveral ſorts of Creatures, I can make no more of them than
+this; That by <hi>Lions,</hi> in the better ſenſe of the word, (as in the Bleſſing of
+<hi>Judah)</hi> may be meant <hi>Princely perſons,</hi> (as <hi>Epiphanius</hi> himſelf
+interprets that place <note n="*" place="margin">Haereſ 77. numb. 33. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </note>)
+and by the <hi>Fatlings</hi> their <hi>Wealthy and Happy</hi> Subjects; by the <hi>Wolf</hi> and
+the <hi>Leopard,</hi> the <hi>Strong</hi> and the <hi>Mighty;</hi> and by the <hi>Lambs</hi> and
+<hi>Kids,</hi> the <hi>Weak</hi> and <hi>Infirm:</hi> by the <hi>Bear,</hi> ſuch as are
+<hi>fierce, rough,</hi> and <hi>warlike;</hi> and by the <hi>Cow,</hi> the <hi>gentle, tame,</hi>
+and <hi>peaceable</hi> People: and laſtly, by the <hi>Aſp</hi> and the <hi>Cockatrice</hi>
+(which are mentioned in the Verſes following my Text) the <hi>angry</hi> and <hi>envenomed</hi>
+Spirits, and by the <hi>ſucking Children,</hi> all <hi>meek</hi> and <hi>good-natur'd</hi>
+perſons.</p>
+               <p>And ſo the meaning may be, that Chriſt ſhall come to make the World ſo happy, that
+Princes
+<pb n="12" facs="tcp:93426:6"/> and People, the mighty and the meaner ſort; the violent, and they that have
+no power, or no will to reſiſt; the Soldier, and the peaceable Country-man; the Waſpiſh
+people, and they that are of a ſweet Diſpoſition, ſhall all be brought under the ſame
+Diſcipline, and ſubmit to the ſame Laws; not to hurt or moleſt one ano<g ref="char:EOLhyphen"/>ther, but to promote
+the Common Good of the whole body to which they belong. For they ſhall be conducted by the moſt
+tender-hearted, peaceable and gentle Guides; who perhaps are meant in the latter end of my Text,
+<hi>and a little child ſhall lead them.</hi> By this name of his <hi>Children,</hi> our Lord
+calls his Apoſtles, whom he ſent to gather and feed his Flock; and both they and their
+Succeſſors are called in the Holy Language, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the <hi>Leaders</hi> of his
+People, to Guide and Conduct them into the way of truth and peace.</p>
+               <p>Thus far none can make any difficulty to yield their Aſſent, but will eaſily grant this
+Prophecy ſets forth the happy days under Chriſt's Kingdom and Government, in ſuch words as
+the very Hea<g ref="char:EOLhyphen"/>then <hi>Poets</hi> (or <hi>Prophets,</hi> as they called them, 1. <hi>Tit.</hi> 12.)
+were wont to uſe, when they would repreſent the like peace and proſperity under their Kings
+and Princes. For <hi>Virgil</hi> congratulates
+<pb n="13" facs="tcp:93426:6"/> to <hi>Pollio</hi> the Birth of his Son, and pretends to pre<g ref="char:EOLhyphen"/>ſage the
+Happineſs which ſhould be in his time, in words as like to theſe of <hi>Iſaiah,</hi> as if
+he had borrow'd them from his Writings. And to ingra<g ref="char:EOLhyphen"/>tiate himſelf with <hi>Auguſtus,</hi> he
+ſpeaks in the ſame Stile concerning <hi>Julius Caeſar,</hi> as all know, who are acquainted
+with his <hi>Poems.</hi> 
+                  <note n="†" place="margin">Erlog. IV. &amp; V.</note>
+               </p>
+               <p>The Greateſt Difficulty will be to ſhow the <hi>Truth</hi> of what the Prophet here writes;
+and to make his Words applicable to our Bleſſed Saviour.</p>
+               <p>For when were there ſuch Happy Times, may ſome ſay? Did we ever yet ſee the Enmi<g ref="char:EOLhyphen"/>ties of
+Mankind laid aſide, or ſo much as laid aſleep? Hath not even the Chriſtian World been ever
+full of Strife and Contention, of Hatred and bitter Oppoſition, of Violence and Oppreſſion,
+nay, of Wars and Bloodſhed; which beſmears the Face of Chriſt's <hi>Flock,</hi> as well as
+other people? Do not our Eyes ſtill ſee men devouring and de<g ref="char:EOLhyphen"/>ſtroying one another? Are not
+our Ears filled with the doleful Complaints and Lamentations of miſerable wretches? The Mighty in
+many pla<g ref="char:EOLhyphen"/>ces (even in neighbouring Countries, not far off from us). roaring like Lions for their
+prey, and poor harmleſs people trembling before them, like ſo many Lambs that have no helper?
+Nay, are not the meaner ſort engaged in perpetual
+<pb n="14" facs="tcp:93426:7"/> brawls and endleſs janglings? Are they not fraught with envy, wrath and
+malice? Do they not ſting one another (and perhaps their betters) with bitter words, as if the
+poiſon of Aſps were under their lips? And more than this, are they not ready to ſheath their
+Swords in one another's Bowels, with ſuch a furious zeal; as if to kill their oppoſites were to
+do our Lord good ſervice?</p>
+               <p>How can all this be denied? and, if it cannot, what appearance of truth is there, that
+<hi>Jeſus</hi> is that Chriſt, under whoſe Government the Prophet ſaith, there ſhall be a
+moſt bleſſed accord?</p>
+               <p>I anſwer; all this is true: and yet it is as true, that our <hi>Lord Jeſus</hi> is the
+Chriſt; the <hi>Son of God, and the Saviour of the World.</hi> Which is the <hi>Se<g ref="char:EOLhyphen"/>cond</hi> and
+the principal part of my Diſcourſe: wherein I undertook to demonſtrate, That this Prophecy
+was exactly fulfilled in him: as will be confeſſed if I make good theſe <hi>three</hi>
+things.</p>
+            </div>
+            <div n="2" type="section">
+               <head>II.</head>
+               <p>
+                  <hi>Firſt,</hi> That it was the apparent deſign of our Saviour's coming, to make ſuch an
+happy ac<g ref="char:EOLhyphen"/>cord among men; as the Prophet here deſcribes.</p>
+               <p>
+                  <hi>Secondly,</hi> That the nature of his Religion is ſuch, as is apt to produce this effect
+which he deſigned.</p>
+               <p>
+                  <hi>Thirdly,</hi> That this effect was actually produced in thoſe that heartily embraced his
+Religion.</p>
+               <div n="1" type="section">
+                  <pb n="15" facs="tcp:93426:7"/>
+                  <head>I.</head>
+                  <p>The <hi>firſt</hi> of theſe is ſo unqueſtionable, that I may be excuſed if I wholly
+omit it, for fear of be<g ref="char:EOLhyphen"/>ing tedious. Or it may be ſufficient to ſay, that as he was called by
+this Prophet, ch. IX. v. 6. <hi>the Prince of peace</hi> long before he was born; ſo at his birth
+the Angels tell us plainly enough what his buſineſs was, when they welcom'd him into the World
+with this joyful Hymn; <hi>Glory be to God in the higheſt, and on earth peace, good-will
+towards,</hi> or a<g ref="char:EOLhyphen"/>mong, <hi>men,</hi> Luke II. 14.</p>
+                  <p>And when he was to enter upon his Office, <hi>John Baptiſt</hi> was ſent before him to
+prepare his way, <hi>by turning the hearts of the fathers to the children</hi> (ſo the ſame
+Angel deſcribes his Commiſſion) i. e. to make them all of one mind: <hi>and the diſobedient
+to the wiſdom of the juſt,</hi> Luke I. 17. Which Wiſdom you know is, <hi>pure and peaceable,
+gentle and eaſy to be intreated, full of mercy and good fruits, without partiali<g ref="char:EOLhyphen"/>ty, without
+hypocriſie,</hi> as it is deſcribed by one of the Apoſtles of our Lord, <hi>Jam.</hi> III.
+17.</p>
+                  <p>Whoſe whole Converſation in the world, was ſuch a rare Pattern of meekneſs and
+peacebleneſs, that he <hi>did not ſtrive nor cry, neither did any man hear his voice in the
+ſtreets</hi> (as St. <hi>Matthew</hi> obſerves, ch. XII. 19. out of this Prophet) that is, he
+would not contend with thoſe that oppoſed and provo<g ref="char:EOLhyphen"/>ked
+<pb n="16" facs="tcp:93426:8"/> him; nor make a clamorous noiſe when he was abuſed; nor move the
+ſmalleſt diſtur<g ref="char:EOLhyphen"/>bance, how ill ſoever he was treated: No, not ſo much as <hi>break a
+bruiſed reed, nor quench the ſmoak<g ref="char:EOLhyphen"/>ing flax;</hi> i. e. diſhearten, or utterly deject thoſe
+of whom there was any hope; tho for the preſent they were his Enemies, and ſought to deſtroy
+him. But he perſuaded all, in the moſt gracious manner, to become new Creatures; and ſent his
+Apoſtles abroad alſo upon this errand, with <hi>peace in their mouths,</hi> unto every Houſe
+into which they en<g ref="char:EOLhyphen"/>tred.</p>
+                  <p>And if you would know what kind of Creatures he intended to make them, you may learn that even
+from the names he commonly beſtows upon his Diſciples: whom he calls his <hi>Sheep,</hi> and
+<hi>his Lambs,</hi> and <hi>little Children</hi> (the very terms wherein the Prophet here ſpeaks)
+unto whom he gave <hi>this new Commandment, That they ſhould love one another, even as he had
+loved them;</hi> that is, with the moſt ar<g ref="char:EOLhyphen"/>dent love, and ſincereſt affection. Which his
+be<g ref="char:EOLhyphen"/>loved Apoſtle repeats ſo often, and in the very ſame language, calling thoſe to whom he
+writes, <hi>My little Cheldren;</hi> as if he thought this was the whole buſineſs of
+Chriſtianity, <hi>That we ſhould be<g ref="char:EOLhyphen"/>lieve on the name of his Son Jeſus Chriſt, and love one
+ano<g ref="char:EOLhyphen"/>ther, as he gave us commandment,</hi> 1 John III. 23.</p>
+                  <p>
+                     <pb n="17" facs="tcp:93426:8"/> But I'll ſpend no more time in this, nor ſtay to give an account of one
+place in the Goſpel, which ſeems to contradict it, <hi>(Mat.</hi> X. 34. 35.) becauſe,
+whatſoever the Event was by accident, in the at<g ref="char:EOLhyphen"/>tempt of ſo great a Change as our Saviour came
+to make; the Nature and Genius of the Religion which he taught is ſuch, that, as he could have no
+other deſign, ſo it is apt in it ſelf to make Men the moſt peaceable Creatures, though
+never ſo diſagree<g ref="char:EOLhyphen"/>ing in their Natural Tempers and Diſpoſitions.</p>
+                  <p>That's the next thing to be conſidered, in this matter.</p>
+               </div>
+               <div n="2" type="section">
+                  <head>II.</head>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="II"/> Which will be evident to every ones Satisfaction, who will ſeriouſly
+weigh theſe <hi>three</hi> Things.</p>
+                  <p n="1">
+                     <hi>Firſt,</hi> The <hi>Principles</hi> of his Religion, or the <hi>Do<g ref="char:EOLhyphen"/>ctrines</hi> he
+taught Men to <hi>believe;</hi> together with the way and <hi>means</hi> whereby theſe Principles
+were eſta<g ref="char:EOLhyphen"/>bliſhed in Mens Minds.</p>
+                  <p n="2">
+                     <hi>Secondly,</hi> The <hi>Precepts</hi> of his Religion, or the Things he taught them to
+practiſe.</p>
+                  <p n="3">
+                     <hi>Thirdly,</hi> The <hi>Obligations</hi> he laid upon Men to re<g ref="char:EOLhyphen"/>ceive theſe
+<hi>Principles,</hi> and obſerve theſe <hi>Precepts.</hi>
+                  </p>
+                  <p>All of which are very powerful to make Men of a loving, gracious Diſpoſition, and perfectly
+to re<g ref="char:EOLhyphen"/>concile them one to another.</p>
+                  <p>
+                     <pb n="18" facs="tcp:93426:9"/> 
+                     <milestone type="tcpmilestone" unit="unspecified" n="I"/> 
+                     <hi>Firſt,</hi> As to the <hi>Principles</hi> of his
+Religion, and the <hi>Means</hi> he uſed to ſettle them in Mens Minds. He,</p>
+                  <p n="1">1. Taught them, <hi>firſt</hi> of all, that there is but <hi>one God.</hi> The Disbelief
+of which, as it had ſet the World at ſuch enmities one with another, as they confeſſed was
+among their Deities; ſo the planting this Faith in Mens Hearts, any one may diſcern at the
+firſt ſight, muſt needs be an apt means to breed ſuch Love among Men, as is between the
+Children of one and the ſame common Parent of them all.</p>
+                  <p n="2">2. And that's very conſiderable; as he declared one <hi>God</hi> to Men, ſo he
+revealed him as his and their <hi>Father,</hi> full of Kindneſs and Goodwill to all his Children,
+having a tender and affectionate Care of their Immortal Happineſs. Which St. <hi>Paul</hi>
+thought a Bond ſo ſtrong, and a Motive ſo very efficacious, that it concludes the great heap
+of Arguments, whereby he perſwades Chriſtians to Unity of Spirit and Peace; <hi>Epheſ.</hi>
+iv. 6. <hi>There is one God and Father of all, who is above all, and through all, and in you
+all;</hi> that is,
+<q>is the Supream Lord of us all, diffuſing his careful and paternal Providence through the whole
+Body of this vaſt Empire, and more particularly reſides among Chriſtian People.</q>
+                  </p>
+                  <p n="3">3. Who are taught (which is the next thing) to worſhip this one God, by <hi>one Mediator
+alone;</hi> which is both another Bond of Union, (as the Apoſtle there
+<pb n="19" facs="tcp:93426:9"/> teaches, when he ſaith there is <hi>one Lord,</hi> V. 4.) and like<g ref="char:EOLhyphen"/>wiſe
+gives very great aſſurance of God's tender Love to all Mankind, as he diſcourſes in another
+Epiſtle, 1 <hi>Tim.</hi> ii. 4, 5. where he proves that God would have all Men to be ſaved, and
+to come to the know<g ref="char:EOLhyphen"/>ledg of the Truth, from this Principle; <hi>for there is one God, and one
+Mediator between God and Men, the Man Chriſt Jeſus, who gave himſelf a Ranſom for
+all.</hi>
+                  </p>
+                  <p n="4">4. Which appears by this further care he hath taken of us all, that he ſent his
+Apoſtles to baptize all Nations into <hi>one ſimple Faith</hi> (for next to <hi>one Lord,</hi>
+the Apoſtle mentions <hi>one Faith and one Baptiſm)</hi> which is this,
+<q>That there is <hi>one God,</hi> the Creator of all, who is to be worſhipped and ſerved by
+<hi>one Mediator,</hi> his only begotten Son Jeſus Chriſt, who offered <hi>one Sa<g ref="char:EOLhyphen"/>crifice,</hi>
+that is, himſelf, for the Sins of the whole World, roſe again from the Dead, aſcended into
+Heaven, and from thence ſent the Holy Ghoſt, to teſtify that he is Lord of all, and will come
+again in Glory to judg the Quick and the Dead.</q> This was eaſily and quickly learn'd; and this
+they taught every where; that Chriſtians might be <hi>perfectly joyn<g ref="char:EOLhyphen"/>ed together in the ſame
+Mind, and in the ſame Judgment,</hi> 1 Cor. 1. 10.</p>
+                  <p n="5">5. In order to which they further declared the whole World, ſhould be govern'd and
+judged by <hi>one common Law;</hi> and that, not the Law of <hi>Moſes,</hi> but the
+<pb n="20" facs="tcp:93426:10"/> plain Rules of Righteouſneſs, Sobriety, and Godli<g ref="char:EOLhyphen"/>neſs. For our
+Bleſſed Saviour being made <hi>Lord of all,</hi> aboliſhed by his Authority the Ordinances of
+<hi>Moſes;</hi> and thereby took away the Diſtinction which had continued for a great many
+Ages, between the <hi>Gen<g ref="char:EOLhyphen"/>tiles</hi> and the <hi>Jews:</hi> whoſe Law was in the very In<g ref="char:EOLhyphen"/>tention
+of it, a Law of Diviſion and Separation; whereby God deſign'd to ſever them from the
+fa<g ref="char:EOLhyphen"/>miliar Society and Converſation of the reſt of the Nations in the World: Who, while that Law
+re<g ref="char:EOLhyphen"/>mained in force, were kept at a diſtance from the <hi>Jews;</hi> but by the removal of it,
+were <hi>no longer Strangers and Foreigners, but fellow-Citizens with the Saints, and of the
+Houſhold of God,</hi> Epheſ. ii. 19. Upon which account the Apoſtle tells the
+<hi>Epheſians</hi> a little before, <hi>v.</hi> 14. that Chriſt was <hi>their Peace, who had
+made both one, by breaking down the middle Wall of Partition, which was be<g ref="char:EOLhyphen"/>tween them and the
+Jews;</hi> that is, as he explains him<g ref="char:EOLhyphen"/>ſelf in the next Verſe, <hi>The Law of Commandments
+con<g ref="char:EOLhyphen"/>tained in Ordinances,</hi> i. e. the Ritual Conſtitutions of <hi>Moſes,</hi> which he calls
+<hi>the Enmity,</hi> becauſe they had been the cauſe of Enmity and Hatred between Jews and
+Gentiles; and were therefore aboliſhed by the Death of Chriſt, <hi>for to make in himſelf of
+twain, one new Man, ſo making Peace:</hi> That they, he means, who had ſtood divided by
+vaſtly different, nay op<g ref="char:EOLhyphen"/>poſite Rites of Worſhip and other Cuſtoms, might
+<pb n="21" facs="tcp:93426:10"/> meet and joyn together in his Religion; and ſo be<g ref="char:EOLhyphen"/>coming one new Body or
+Society under the Go<g ref="char:EOLhyphen"/>vernment of his Laws, there might be an happy Accord and Agreement between
+them, as Members of one and the ſame holy Catholick Church: the <hi>Jews</hi> no longer looking
+upon the <hi>Gentiles</hi> as <hi>pro<g ref="char:EOLhyphen"/>phane;</hi> nor the <hi>Gentiles</hi> looking upon the
+<hi>Jews</hi> as an unſociable People.</p>
+                  <p n="6">6. Now for the ſettling this Belief in Mens Minds, that they were all under the care of
+one and the <hi>ſame God,</hi> and of the <hi>ſame Mediator,</hi> and were become <hi>one
+Corporation,</hi> by ſubmitting to the <hi>ſame Laws;</hi> They were all both Jews and Gentiles
+indifferently endued with <hi>one and the ſame Spirit.</hi>
+                  </p>
+                  <p>This St. <hi>Paul</hi> frequently inculcates, eſpecially in the forenamed Epiſtle to the
+<hi>Epheſians;</hi> where you read preſently after the words now mentioned, <hi>v.</hi> 18.
+that through Chriſt, they <hi>both had acceſs by one Spirit unto the Father.</hi> And again,
+<hi>v.</hi> 22. <hi>Ye alſo are built together in him for an Habitation of God, through the
+Spirit.</hi> The Holy Ghoſt, that is, falling down in great variety of wonderful Gifts upon the
+<hi>Gentiles</hi> as well as the <hi>Jews,</hi> was an undoubted Teſti<g ref="char:EOLhyphen"/>mony of the ſame Divine
+Favour towards them both alike, an evident Token that the ſame Divine Preſence was among the
+Gentiles, which had been
+<pb n="22" facs="tcp:93426:11"/> among his ancient People; and was likewiſe the Bond of Union, whereby they
+were knit together, without any diſtinction between them, unto one God, in the ſame Religion of
+Jeſus Chriſt. So the Apoſtle tells them, <hi>Chap.</hi> iv. where he requires them
+<hi>(v.</hi> 3, 4.) to keep the Unity of the Spirit in the Bond of Peace, becauſe <hi>there is
+one Body, and one Spirit.</hi> They were all made Members, that is, of the ſame Society; and one
+Spirit moved and wrought in them all, which could not but diſpoſe and incline them unto Love
+and Kindneſs, unto Peaceableneſs and the ſtriccteſt Friendſhip imagi<g ref="char:EOLhyphen"/>nable.</p>
+                  <p>Of this alone, it would not be hard to make an entire Diſcourſe, and to ſhow withal that
+by the Power of this Spirit only, and not by armed Force and Violence, his Religion was propagated
+and advanced in the World, in a very quiet and peace<g ref="char:EOLhyphen"/>able manner. But my deſign is meerly to
+repre<g ref="char:EOLhyphen"/>ſent what effectual means our Lord imployed, had they been obſerved and purſued to
+bring about his end, and to fulfil this Prophecy.</p>
+                  <p>Which will further appear, if you caſt your Eyes a while upon his <hi>Precepts,</hi> which is
+the <hi>ſecond</hi> thing I propounded to be conſidered under this Head.</p>
+                  <p>
+                     <pb n="23" facs="tcp:93426:11"/> 
+                     <milestone type="tcpmilestone" unit="unspecified" n="II"/> I will briefly mention ſome of them; for that will be
+ſufficient to make you ſen<g ref="char:EOLhyphen"/>ſible of their Efficacy, if they were heartily obeyed.</p>
+                  <p n="1">
+                     <hi>Firſt,</hi> Exact <hi>Juſtice;</hi> all the Duties of which he hath compriſed in
+ſo few, but very forcible words, that as in an inſtant they enter into our Minds, and gain our
+Aſſent, and recommend themſelves to our beſt Affections, ſo they are eaſily remembred
+and preſerved in Mind. <hi>For all things whatſoever ye would that Men ſhould do unto you, do
+ye even ſo to them, (Mat.</hi> vii. 12.) is a Rule ſo <hi>pregnant,</hi> that it comprehends in
+it the Wiſdom of all Laws; and ſo <hi>equitable,</hi> that it makes every Man's own Deſires
+to be the meaſure of his Actions towards others; and ſo <hi>powerful,</hi> that this alone,
+were it obſerved, would turn the whole Earth into a Paradiſe; in which the <hi>Lions</hi>
+ſhould be as tame as <hi>Lambs,</hi> and no body deſtroy or hurt, or ſo much as moleſt
+others any more.</p>
+                  <p n="2">2. For this Rule comprehends in it <hi>Mercy</hi> alſo; which is another Leſſon our
+Saviour hath taught us, no leſs than Juſtice. Which if Men would exer<g ref="char:EOLhyphen"/>ciſe, as they deſire
+it ſhould be ſhown to them in their Neceſſities, they would not merely ceaſe to be
+<pb n="24" facs="tcp:93426:12"/> hurtful to their Neighbours, but become helpful and beneficial; and that in an
+extraordinary mea<g ref="char:EOLhyphen"/>ſure, for our Lord hath raiſed this Vertue to the ſublimeſt pitch, by
+requiring all his Diſciples <hi>to be merciful, as their Heavenly Father is merciful.</hi>
+                  </p>
+                  <p n="3">3. But ſuppoſe ſome to be ſo far from doing Good, that they do nothing but
+Miſchief; and continue to be as unruly as the <hi>Bears,</hi> and as ſpite<g ref="char:EOLhyphen"/>ful as the
+<hi>Aſps,</hi> of which the Prophet ſpeaks in the next Verſes: In this Caſe our Lord hath
+taught us <hi>Meekneſs and Patience,</hi> and would have us to ſuppreſs thoſe angry and
+furious Motions which are apt, on ſuch Occaſions, to riſe and boil up in our Hearts. So that,
+notwithſtanding the brutiſh Nature of ſome, if the reſt were generally poſſeſſed
+with the Chriſtian Spirit, the World might ſee more happy Days than now it doth.</p>
+                  <p n="4">4. For he requires us alſo, not only to paſs by and forgive thoſe Wrongs and
+Affronts we receive from our Enemies, but to <hi>bleſs</hi> them and to do them Good. Which hath
+a ſtrange Power in it to charm and conquer even the moſt fierce and bar<g ref="char:EOLhyphen"/>barous Natures; and to
+reconcile them to the Love of that Vertue, which makes Men requite Injuries with Courteſies, even
+when it is in their Power to take a terrible Revenge.</p>
+                  <p n="5">
+                     <pb n="25" facs="tcp:93426:12"/> 5. Nay, further, he would have us <hi>contented with ſuch things as we
+have:</hi> which evidently deſtroys that envy, emulation, and ambition, from whence no ſmall
+ſtirs and confuſions ariſe in the World.</p>
+                  <p n="6">6. In queſtions alſo and diſputes about matters of Liberty, he charges thoſe that
+are ſatisfied, not to <hi>deſpiſe</hi> ſuch as are not; and thoſe that are not
+ſatisfied, he commands not to <hi>judge</hi> thoſe that are, <hi>Rom.</hi> XIV. 3.</p>
+                  <p n="7">7. Nay, in all manner of differences which are apt to ariſe among us, he would have
+<hi>the peace of God rule in our hearts,</hi> (Coll. III. 16.) ſo that this having the Umpire
+there, and all being referred to its judgment, we ſhould reſt in the determination of what will
+make moſt for <hi>peace.</hi>
+                  </p>
+                  <p n="8">8. He inſtructs likewiſe our behaviour in our ſe<g ref="char:EOLhyphen"/>veral Relations, teaching Husbands
+and Wives, Pa<g ref="char:EOLhyphen"/>rents and Children, Maſters and Servants, Paſtors and People, to demean
+themſelves ſo to their mu<g ref="char:EOLhyphen"/>tual ſatisfaction, as to take away the cauſe of all diſcord,
+not only in Families and Pariſhes, but in the larger Societies of Church and State. When the
+Flock, for inſtance, <hi>know thoſe which labour a<g ref="char:EOLhyphen"/>mong them,</hi> (as St. <hi>Paul</hi>
+diſcourſes 1 <hi>Theſſ.</hi> V. 12.) that is, have a <hi>great reſpect</hi> to their
+Spiritual Paſtors and Inſtructors, whoſe faithful diſcharge of their Office, in
+<hi>labouring</hi> among their Flock, <hi>preſiding over
+<pb n="26" facs="tcp:93426:13"/> them in the Lord, and admoniſhing them,</hi> procures a great regard to
+them, and inclines the People <hi>to e<g ref="char:EOLhyphen"/>ſteem them very highly in love for their
+works-ſake;</hi> they cannot well miſs of that Bleſſing which there imme<g ref="char:EOLhyphen"/>diately follows,
+<hi>to be at peace among themſelves.</hi> For from wiſe and faithful Inſtructions on the one
+hand, and affectionate Regard to holy Counſels on the other, there cannot but iſſue ſuch an
+Accord, as will make them no leſs happy, than by their Divi<g ref="char:EOLhyphen"/>ſions they make themſelves
+unquiet and miſerable.</p>
+                  <p>For, <hi>laſtly,</hi> the Root and Foundation of all theſe, our Lord hath laid in much
+<hi>Humility and Charity;</hi> which, as they are the very Soul and Spirit of Chri<g ref="char:EOLhyphen"/>ſtianity, and
+utterly deſtroy that <hi>Selfiſhneſs,</hi> which is the great Make-bate among men; ſo they
+are of ſuch a ſweet and obliging Nature, that did they univerſally prevail, there would be an
+end of all Impatience and Wrath, Jars and Contentions, In<g ref="char:EOLhyphen"/>juſtice and Violence, Cruelty and hard
+Dealing; all Factions in the State, and all Schiſms in the Church, would either be prevented, or
+preſently quaſht, and gently healed.</p>
+                  <p>I need not diſtruſt the evidence of theſe things ſo much as to add one word more about
+them.</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="III"/> Let me only put you in mind (which is the laſt thing under this Head)
+that this <hi>Faith,</hi> and theſe <hi>Duties,</hi> our Lord hath bound upon us by ſuch
+ſtrong
+<pb n="27" facs="tcp:93426:13"/> 
+                     <hi>Obligations</hi> of his exceeding great and precious <hi>Pro<g ref="char:EOLhyphen"/>miſes,</hi>
+and of his moſt dreadful <hi>Threatnings</hi> (which were confirm'd alſo after a wonderful
+manner) that if we laid them to heart, they could not fail to draw us as irreſiſtibly to the
+Belief of his Doctrine, and to the obſervation of his Precepts, as our O<g ref="char:EOLhyphen"/>bedience to them, it is
+certain, would make us all more happy than either theſe words of the Prophet, or any other can
+expreſs.</p>
+                  <p>Herein chiefly his Doctrine excels that of the beſt Philoſophers, who taught many excellent
+Leſſons, but could not inforce them with ſuch an aſſured hope of Immortal Life, or fear
+of Eternal Death, as our Saviour and his Apoſtles have done; who thunder this in our Ears,
+<hi>Follow Peace with all men, and Holineſs, without which no man ſhall ſee the Lord,</hi>
+Hebr. XII. 14. To be where our Lord is, and be<g ref="char:EOLhyphen"/>hold his Glory, is the great Hope of Chriſtians,
+<hi>John</hi> XVII. 24. It is the very Joy that is ſet before them. But they are out of the way
+to that high and holy place where our Lord is, and ſhall never come thither, who do not ſtudy
+to be <hi>pure</hi> and undefiled, and whoſe Purity doth not make them <hi>peaceable;</hi> nay,
+<hi>Followers of Peace,</hi> and that <hi>with all men.</hi>
+                  </p>
+                  <p>This is as ſure as that Chriſt is in Heaven; and we have as good ſecurity of that, as can
+be given us; by the coming of the Holy Ghoſt from thence,
+<pb n="28" facs="tcp:93426:14"/> in wonderful plenty of miraculous Gifts; which declared him to have all Power
+in Heaven and in Earth, and puts it out of all doubt, that he is able to give to all them, <hi>who
+by patient continuance in well-doing, ſeek for Glory and Honour, and Immorta<g ref="char:EOLhyphen"/>lity, eternal Life:
+But to them that are contentious, and do not obey the Truth, but obey Unrighteouſneſs,
+Indig<g ref="char:EOLhyphen"/>nation and Wrath; Tribulation and Anguiſh upon every Soul of man that doth evil,</hi> Rom.
+II. 7, 8.</p>
+                  <p>And now I hope no man will queſtion the Ap<g ref="char:EOLhyphen"/>plication of this Prophecy to our Saviour, meerly
+becauſe he doth not behold ſuch happy days as are here deſcribed: ſince things are ſo
+ordered, I have demonſtrated, that we may ſee them if we will.</p>
+                  <p>It is ſenſeleſs to think that God intended to force Mankind to agree together, and to be
+quiet, as if they were indeed a company of ſuch Beaſts, as the Prophet here mentions, and not
+meerly induced with ſuch qualities. The Prophet explains his own meaning, when in the
+Concluſion of this Deſcription of the peaceable Reign of Chriſt, he aſſigns this cauſe
+of it, <hi>v. 9. They ſhall not hurt nor deſtroy in all my holy Mountain; for the Earth ſhall
+be full of the knowledge of the Lord, as the Waters cover the Sea.</hi>
+                  </p>
+                  <p>This Felicity was to be the effect of abundance of Divine Knowledge, which in its own Nature is
+apt to produce it. But as no Knowledge can be
+<pb n="29" facs="tcp:93426:14"/> acquired without diligent Studies, ſo when we have it, it can do us no
+ſervice, unleſs we will be go<g ref="char:EOLhyphen"/>verned by it. And therefore if men either will not entertain this
+heavenly Wiſdom, or having en<g ref="char:EOLhyphen"/>tertain'd it, do impriſon and ſmother it, they de<g ref="char:EOLhyphen"/>prive
+themſelves of the Bleſſing of Peace: But they cannot make this Word of God of none effect,
+becauſe he never intended to beſtow this Hap<g ref="char:EOLhyphen"/>pineſs upon the Ignorant and the Negligent, but
+upon thoſe who receive and improve the Know<g ref="char:EOLhyphen"/>ledge of our Lord Jeſus Chriſt.</p>
+                  <p>So much the ſober Jews themſelves confeſs, par<g ref="char:EOLhyphen"/>ticularly <hi>Maimonides</hi>
+                     <note n="*" place="margin">More, Nevoch. Par. III. c. XI.</note> in theſe remarkable words: <hi>The
+Evils which men create one to another, flow from their different Opinions, Perſwaſions,
+Affections, Wills, and Studies; and all theſe ſpring from Ignorance and want of Wiſdom. As a
+blind man not only ſtumbles him<g ref="char:EOLhyphen"/>ſelf, but runs upon others, becauſe he ſees not his way;
+ſo in every Sect of men, they who are wedded to it, do one another a world of Miſchiefs, by
+reaſon of their blind Ignorance: All which would be remedied, if they had Wiſdom, which is to a
+man's Soul what the faculty of Seeing is to his Body. When the Truth is known, then Ha<g ref="char:EOLhyphen"/>tred, Envy,
+Contention, whereby men tear one another in pieces, is at an end; which God himſelf teaches us by
+his Prophet, who after he had firſt ſaid, The Wolf ſhall dwell with the Lamb,</hi> &amp;c.
+<hi>then ſubjoyns the cauſe, which ſhould take awaythis Enmity; and that is the Know<g ref="char:EOLhyphen"/>ledge
+<pb n="30" facs="tcp:93426:15"/> of God the Creator, wherein men ought to be in<g ref="char:EOLhyphen"/>ſtructed. They ſhall not
+hurt, nor deſtroy,</hi> &amp;c. <hi>for the Earth ſhall be full of the Knowledge of the
+Lord,</hi> &amp;c.</p>
+                  <p>But the time calls me to haſten to the <hi>third</hi> and laſt General Head, which is
+this;</p>
+               </div>
+               <div n="3" type="section">
+                  <head>III.</head>
+                  <p>That the knowledge of our Lord was ſo fitted, and ſo ſufficient to make men thus happy,
+that there was actually to be ſeen ſuch brotherly Love and Peace, as is here foretold, among
+the firſt Con<g ref="char:EOLhyphen"/>verts to his Religion, who embrac'd each other with ſuch an hearty and ſervent
+Affection, that what one ſhall rarely find an inſtance of between two ſingle perſons, might
+have been beheld in ſome thouſands of Men and Women, who had but <hi>one Heart and one
+Soul</hi> in ſo many ſeveral Bodies <hi>(Act.</hi> IV. 37.) that is, were perfect Friends, who
+had their Poſſeſſions ſo common, <hi>that no man called ought of the things he had, his
+own.</hi>
+                  </p>
+                  <p>And if we liſt, by theſe wild Creatures in my Text, to underſtand the <hi>Gentiles,</hi>
+it is evident they were in a little time brought to live in ſuch Unity, Love, and Peace with the
+<hi>Jews,</hi> that they maintain'd the <hi>Communion of the Saints</hi> in the moſt proper
+ſenſe there<g ref="char:EOLhyphen"/>of: For they <hi>communicated</hi> their Goods to them moſt freely and liberally,
+when they were reduced to great ſtraits in <hi>Judea;</hi> contributing to the Relief
+<pb n="31" facs="tcp:93426:15"/> of their Neceſſities, not only to their Power, but in ſome places
+<hi>beyond their Power; praying St. Paul with much intreaty,</hi> that he would <hi>receive their
+Gift, and take upon him the Fellowſhip of miniſtring to the Saints,</hi> 2 Cor. VIII. 3, 4.</p>
+                  <p>Many Inſtances might be given of their frankneſs in their <hi>Hoſpitality to
+Strangers,</hi> whom they readily entertain'd, though they had never ſeen them be<g ref="char:EOLhyphen"/>fore, meerly
+becauſe they belonged to the ſame Body of Chriſt with themſelves, and they look'd upon them
+as their Brethren. But I ſhould tranſ<g ref="char:EOLhyphen"/>greſs my bounds, if I ſhould purſue ſuch like
+things any further, which deſerve a Diſcourſe by themſelves. And I have ſaid enough to my
+preſent Purpoſe, which was to ſhew how compleatly this Prophecy was fulfilled in the
+<hi>actual effecting</hi> of that which our Saviour deſigned, and for the producing of which, he
+employed the moſt proper means.</p>
+                  <p>From all which, it would not be hard to find, had I time to make the Enquiry, Why thoſe hap<g ref="char:EOLhyphen"/>py
+days in the beginning of our Religion <hi>(WHen the multitude of them that believed, were of one
+Heart, and of one Soul)</hi> were of ſo ſhort continuance; and the days are, long ago, become
+exceeding evil.
+<q>It is to be imputed, in great part, to the Corruption of Chriſtian Doctrine, and the
+Impoſition of new Articles of Faith; or to the over zealous eſpouſal
+<pb n="32" facs="tcp:93426:16"/> of ſuch Opinions as are no eſſential parts of it, (whereby mens minds
+have been diverted from the ſtudy of ſerious Piety and Vertue) about which moſt of the Heats
+and Quarrels in Chriſtendom have aroſe, and not about the Subſtance of Chri<g ref="char:EOLhyphen"/>ſtianity it
+ſelf.</q>
+                  </p>
+                  <p>But it is to be hoped, that the time is coming a<g ref="char:EOLhyphen"/>pace, when Chriſtianity will end, as it
+began, in abundance of <hi>Truth and Peace,</hi> by a right under<g ref="char:EOLhyphen"/>ſtanding of the Will of God,
+and an hearty Sub<g ref="char:EOLhyphen"/>miſſion thereunto; in zealous Love unto God our Saviour, and unto one
+another. Or to ſpeak in the Prophets Language, <hi>the Earth ſhall be full of the knowledge of
+the Lord</hi> (in the higheſt and largeſt ſenſe of thoſe words) <hi>as the Waters cover
+the Sea.</hi>
+                  </p>
+                  <p>I have not room to lay before you the grounds of this Hope out of the holy Oracles; but that
+wonderful Work which God hath wrought in our days, and before our Eyes, by that great Prince,
+whoſe Spirit he hath ſtirred up to undertake our Deliverance from Popiſh Tyranny, and whoſe
+Pro<g ref="char:EOLhyphen"/>ceedings he hath bleſſed with amazing Succeſs, may well awaken the minds of conſidering
+Perſons to expect greater things he is about to do in the World, which groaneth (as the Apoſtle
+ſays the whole Creation did in their days) <hi>to be delivered into the glorious Liberty of the
+Children of God.</hi>
+                  </p>
+                  <p>
+                     <pb n="33" facs="tcp:93426:16"/> Here at leaſt, in theſe Kingdoms and Churches, it would be very ſtrange,
+if we ſhould defeat the deſign of Gods gracious Providence: by continuing our old differences
+and enmities, our unchriſtian rough<g ref="char:EOLhyphen"/>neſs and ſeverities; frowardly refuſing to cloſe
+to<g ref="char:EOLhyphen"/>gether, in ſuch an happy ſettlement, as may give ſecurity to our Religion, and ſafety to
+all our o<g ref="char:EOLhyphen"/>ther concerns.</p>
+                  <p>This would ſet an Eternal brand of infamy upon us, if, having all agreed ſo far with a
+common con<g ref="char:EOLhyphen"/>ſent, as, once more, to ſhake off the Roman Yoke which was about to be put upon our
+Necks, and to preſerve the liberty of our Country and of our Re<g ref="char:EOLhyphen"/>ligion in its purity and
+ſimplicity; we ſhould now fall out about other matters: And ſuffer the few things wherein we
+differ, to have a greater power to divide us; than the many, nay, the moſt things wherein we
+agree, have to unite us.</p>
+                  <p>God forbid we ſhould prove ſo ungrateful unto Him, and unto the bleſſed Inſtrument of
+his Pro<g ref="char:EOLhyphen"/>vidence: Which hath given us a New opportunity after our ſhameful abuſe of a former, to
+make our ſelves happy; by <hi>being like minded, having the ſame love, being of one accord, of
+one mind: Not looking every Man on his own things, but every Man alſo on the things of
+others,</hi> as the Apoſtle Writes, II <hi>Philip.</hi> 2. 4.</p>
+                  <p>
+                     <pb n="34" facs="tcp:93426:17"/> Unto this let every one, who loves the Lord Je<g ref="char:EOLhyphen"/>ſus in ſincerity, who hath
+any love to his Religion, and its Honour, or loves his country, that is, his own eaſe and
+ſafety, and the wellfare of his Poſte<g ref="char:EOLhyphen"/>rity, bend his ſerious ſtudy and moſt earneſt
+endea<g ref="char:EOLhyphen"/>vours. Let every Soul of us do his part, that the place where he lives may be in peace: And
+not only wiſh but labour, that the bleſſed times which we look for (when our Lord <hi>ſhall
+take to himſelf his great power and ſhall Reign,</hi> XI. Rev. 17.) may begin here in theſe
+Churches and Kingdoms: Where there never was greater need, nor greater reaſon for Unity, than at
+this preſent.</p>
+                  <p>Princes and Governours ſhould ſtudy this, by making juſt, reaſonable, and merciful Laws;
+and the people ſhould ſtudy it, by a humble ſubmiſſi<g ref="char:EOLhyphen"/>on to them, and careful obſervance
+of them.</p>
+                  <p>The Miniſters of the Goſpel ſhould ſeek this, by being the Embaſſadors of Peace and
+Love, by ſpeaking all the ſame thing; that is, Preaching on<g ref="char:EOLhyphen"/>ly the undoubted Truths of the
+Goſpel: That ſo they <hi>may be one</hi> (according to Chriſt's Prayer for his Apoſtles)
+even as the Father and our Saviour were one; and thereby perſwade Men more effe<g ref="char:EOLhyphen"/>ctually of the
+certainty of their Doctrine. And all their hearers ſhould ſtudy to Adorn this Goſpel of
+Peace; by learning of them in humility, and re<g ref="char:EOLhyphen"/>ceiving
+<pb n="35" facs="tcp:93426:17"/> the ingrafted Word with meekneſs: By ſetting themſelves to the ſerious
+practice of plain and unqueſtionable Precepts; and not quarrelling about Doctrines, that are
+uncertain and obſcure.</p>
+                  <p>They who are in Office ſhould indeavour this, by faithful execution of the known Laws, by
+maintaining good Order, by taking up petty differences among Neighbours; which ſhould be the Work
+of every honeſt Man, as far as it lies in his power.</p>
+                  <p>The Great, and the Rich ſhould labour to bring on theſe happy days, by countenancing True
+Piety, by comforting the poor and indigent, by all other Acts of Mercy and kindneſs unto thoſe
+who are below them; that they may not be tempted to envy their proſperity, or mur<g ref="char:EOLhyphen"/>mur at their
+fullneſs and abundance; but be the better contented in their poor condition.</p>
+                  <p>In like manner, all other Eſtates and Conditi<g ref="char:EOLhyphen"/>ons of Men are obliged to diſcharge their
+ſeve<g ref="char:EOLhyphen"/>ral Duties conſcientiouſly; that they may con<g ref="char:EOLhyphen"/>tribute to the peace and quietneſs, the
+Proſperi<g ref="char:EOLhyphen"/>ty and Happineſs of the Society whereof they are Members.</p>
+                  <p>For as there is no greater Scandal than this among Chriſtians; nothing more deſtructive
+<pb n="36" facs="tcp:93426:18"/> to Religion among our ſelves, or a greater hin<g ref="char:EOLhyphen"/>drance to its propagation
+among Strangers, than the perpetual differences and feuds, hatreds and enmities, of which
+Chriſtians themſelves are the Authors: So there is nothing more pernicious and deadly, unto
+thoſe who are embroiled in them.</p>
+                  <p>If they have no greater reſpect to the credit of their Religion, than to continue ſtill
+ſuch a<g ref="char:EOLhyphen"/>nimoſities; they ſhall have this juſt puniſhment from God, that they ſhall
+thereby make one an<g ref="char:EOLhyphen"/>other, ſo much the more miſerable.</p>
+                  <p>For when Religion, according to its Nature and deſign, doth not unite and bind Men faſt
+together; it makes them ſo much the ſorer enemies one to another.</p>
+                  <p>No differences ſo ſharp as thoſe among Men of the ſame profeſſion: None ſo cruel
+and out<g ref="char:EOLhyphen"/>ragious, as thoſe whom Religion ſets a quarrel<g ref="char:EOLhyphen"/>ling.</p>
+                  <p>And therefore let us heartily apply our ſelves to the diligent ſtudy of that Univerſal
+Chriſtian Piety, which will make us as innocent as Lambs, as gentle as the young Kids; as humble,
+void of Malice, Covetouſneſs, ambition, or world<g ref="char:EOLhyphen"/>ly deſigns, as the little ſucking
+Children. For this is the very intention of it. <hi>The Kingdom of
+<pb n="37" facs="tcp:93426:18"/> God, i. e.</hi> the Chriſtian Religion, <hi>is not meat and drink</hi> (doth
+not conſiſt in thoſe things about which Men quarrel) <hi>but Righteouſneſs, and Peace,
+and joy in the Holy Ghoſt.</hi> And <hi>therefore let us</hi> (as the Apoſtle there exhorts,
+XIV <hi>Rom.</hi> 17, 19.) <hi>follow after the things which make for Peace; and things wherewith
+one may edifie another.</hi>
+                  </p>
+                  <p>Unto which give me leave to propound a few Motives, not of my own; but out of one of the Greek
+Fathers, who preſſes this, upon the people of <hi>Conſtantinople,</hi> when miſerably
+divi<g ref="char:EOLhyphen"/>ded, <note place="margin">Greg. Na<g ref="char:EOLhyphen"/>zianz. O. rat. 12. p. 108. &amp;c.</note> with equal Zeal and
+Eloquence.</p>
+                  <p>
+                     <hi>Firſt,</hi> ſays he, look up unto Almighty God, the higheſt and moſt excellent of
+all Beings: Who delights in the Name of the <hi>God of Peace,</hi> and hath taught his Apoſtles
+to tell us, that <hi>God is Love,</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> for there is <hi>no commo<g ref="char:EOLhyphen"/>tion, nor
+ſtirs in the Godhead:</hi> but a perfect <hi>Uni<g ref="char:EOLhyphen"/>ty</hi> in that Bleſſed
+<hi>Trinity.</hi>
+                  </p>
+                  <p>And next unto God are the Angelical Powers, who are the firſt Rayes from the firſt Light;
+and ſparkle in no property ſo much as this: <hi>Settled quietneſs, and freedom from
+Contention and Diſtur<g ref="char:EOLhyphen"/>bance.</hi>
+                  </p>
+                  <p>As for thoſe Angels who would needs raiſe a Sedition, by their diſcontent and ambition,
+they are fallen from their happy eſtate; and con<g ref="char:EOLhyphen"/>demn'd
+<pb n="38" facs="tcp:93426:19"/> to Eternal darkneſs inſtead of Light: The reſt remaining ſtill in
+their Ancient dig<g ref="char:EOLhyphen"/>nity: the principal Glory of which is, <hi>Peacea<g ref="char:EOLhyphen"/>bleneſs and unmoveable
+Love.</hi>
+                  </p>
+                  <p>It follows therefore, that all they who embrace Peace, and hate Diſcord and Contention, with
+all the cauſes of them, are <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> 
+                     <hi>nigh un<g ref="char:EOLhyphen"/>to God, and unto Divine
+Beings.</hi>
+                  </p>
+                  <p>On the contrary, they who are quarrelſom and Turbulent, the Authors of Diviſion and Makers
+of parties, glory in their Shame; and are on the Devils ſide: Who is always unqui<g ref="char:EOLhyphen"/>et and
+uneaſie in himſelf, and being from the beginning, a Murderer, and a hater of that which is
+good, Labours to engage Mankind in the like pernicious ways: Hiding himſelf in the midſt of
+Contention and Strife, and endea<g ref="char:EOLhyphen"/>vouring (as an Army is wont to do, when a few are entred) by a
+little breach among us, to get in his whole Body.</p>
+                  <p>But let us come down from theſe heights, and caſt our eyes a while upon the whole Viſible
+world, the heavens, the earth, and every thing therein: And take notice what a lovely ſight it
+is, when every Creature keeps its place, and obſerves its uſuall motions. <hi>Then it is a
+World indeed, according to its Name, and an in<g ref="char:EOLhyphen"/>comparable beauty.</hi>
+                  </p>
+                  <p>
+                     <pb n="39" facs="tcp:93426:19"/> I will not proceed in his deſcription of it, but on<g ref="char:EOLhyphen"/>ly add, as he doth, that
+when the earth quakes and is rent in peices; when the Sea breakes its banks, or the heavens powre
+down immoderate ſhowers: how ſad and diſmal doth the face of all things appear? into what
+aſtoniſhment doth it caſt us? But this proclaims Peace and Unity unto Mankind: who ought to
+be affrighted, by theſe diſaſtrous accidents, from Tumults and Conſuſions.</p>
+                  <p>He deſires them alſo to conſider how all Societies great and ſmall are preſerved and
+made happy by Unity: And by Diviſion utterly deſtroyed.</p>
+                  <p>And particularly propounds to them the Exam<g ref="char:EOLhyphen"/>ple of the Jews: who brought upon themſelves all
+thoſe calamities, which are unexpreſſible, by their mutinous and ſeditious courſes.</p>
+                  <p>And <hi>Laſtly,</hi> he deſires them to learn by their own dear-bought experience: which is
+a Miſtreſs that teaches even fools to be wiſer. There being no greater ſhame, nothing
+moreſottiſh, then for them to embroil themſelves again; who are but newly eſcaped out of
+the flames, wherein they were al<g ref="char:EOLhyphen"/>moſt conſumed.</p>
+                  <p>And he ſubjoynes theſe <hi>two</hi> memorable Obſer<g ref="char:EOLhyphen"/>vations; with which I ſhall
+conclude.</p>
+                  <p n="1">1. They are not the empty headed people, as they are vulgarly eſteemed, who continue
+con<g ref="char:EOLhyphen"/>ſtantly
+<pb n="40" facs="tcp:93426:20"/> ſettled, in one ill State: But they who are ever changing like the
+inconſtant aire; rolling like the waves of the Sea backward and forward, never knowing when they
+are well, nor where to fix, and how to ſettle themſelves. Such men have no reaſon to expect
+ever to be happy: as they who continue in one bad condition, it is poſſible may.</p>
+                  <p n="2">2. For that's his next Obſervation; that even they who have been long in a State of
+Faction and confuſion, have the hopes of agreement and peace left to comfort them (for this is
+the Support of the miſerable, that better times may come at laſt.) But they who being often
+brought to an accord, are ſo reſtleſs and unquiet that they fall out again; are deprived,
+together with the reſt of their happineſs even of all hopes of agreeing in any Settlement':
+dreading concord, as much as they do commotion: truſting to neither, becauſe of their fickle
+and diſ<g ref="char:EOLhyphen"/>contented Spirit in both.</p>
+                  <closer>
+                     <hi>From which wretched temper of mind, and forlorn con<g ref="char:EOLhyphen"/>dition, the God of Peace and Love,
+of his infinite Mer<g ref="char:EOLhyphen"/>cy, deliver every one of us; for the Sake of Chriſt Jeſus, who is our
+Peace.</hi> Amen.</closer>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:93426:20"/>
+         </div>
+      </body>
+   </text>
+</TEI>
